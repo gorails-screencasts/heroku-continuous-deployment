@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Todo List</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-light bg-white">
+      <div class="container">
+        <div class="float-right">
+          <%= link_to "Powered by Hatch", "https://hatch.gorails.com", class: "btn btn-outline-primary" %>
+        </div>
+        <a class="navbar-brand" href="/">
+          My Personal Todo List
+        </a>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

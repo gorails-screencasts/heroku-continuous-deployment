@@ -1,24 +1,8 @@
-# README
+# Todo List Example for Hatch
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails app is a simple little example Postgres and Rails application
+to showcase how easy it is to deploy to
+[hatch.gorails.com](https://hatch.gorails.com). All you've got to do is
+select this repository to deploy on your server and you're all set!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Hatch is built by [Chris Oliver](https://excid3.com) of [GoRails](https://gorails.com).

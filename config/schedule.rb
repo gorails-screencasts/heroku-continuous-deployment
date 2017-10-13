@@ -19,6 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every 1.day do
+every 5.minutes do
   command "date >> /home/deploy/cron.log"
 end

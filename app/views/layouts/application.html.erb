@@ -5,14 +5,14 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js', 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <nav class="navbar fixed-top navbar-light bg-white">
       <div class="container">
         <div class="float-right">
-          <%= link_to "Powered by Hatch", "https://hatch.gorails.com", class: "btn btn-outline-primary" %>
+          <%= link_to "Powered by Hatchbox.io", "https://hatchbox.io", class: "btn btn-outline-primary" %>
         </div>
         <a class="navbar-brand" href="/">
           My Personal Todo List

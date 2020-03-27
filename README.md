@@ -1,8 +1,8 @@
-# Todo List Example for Hatch
+# Todo List Example for Hatchbox.io
 
 This Rails app is a simple little example Postgres and Rails application
 to showcase how easy it is to deploy to
-[hatch.gorails.com](https://hatch.gorails.com). All you've got to do is
+[Hatchbox.io](https://hatchbox.io). All you've got to do is
 select this repository to deploy on your server and you're all set!
 
-Hatch is built by [Chris Oliver](https://excid3.com) of [GoRails](https://gorails.com).
+Hatchbox.io is built by [Chris Oliver](https://excid3.com) of [GoRails](https://gorails.com).

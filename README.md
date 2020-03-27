@@ -1,4 +1,4 @@
-# Todo List Example for Hatchbox.io
+# Todolist Example for Hatchbox.io
 
 This Rails app is a simple little example Postgres and Rails application
 to showcase how easy it is to deploy to

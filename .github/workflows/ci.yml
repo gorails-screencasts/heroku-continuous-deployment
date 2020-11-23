@@ -71,7 +71,7 @@ jobs:
           bin/rails test
 
   Deploy:
-    if: ${{ github.event_name == "push" && github.ref == "refs/heads/master" }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     needs: Test
     runs-on: ubuntu-latest
 
